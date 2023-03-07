@@ -26,7 +26,6 @@
 //!     }
 //! }
 //! ```
-//! ![Image](https://github.com/cbyrneee/localauthentication-rs/blob/main/.github/screenshot.png)
 
 use external::{lacontext_canEvaluatePolicy, lacontext_evaluatePolicy, lacontext_new, LAContext};
 use swift_rs::{Int, SRObject, SRString};
