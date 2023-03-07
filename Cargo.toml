@@ -1,0 +1,14 @@
+[package]
+name = "localauthentication-rs"
+description = "A wrapper for LocalAuthentication.framework in Rust"
+license = "MIT"
+
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+swift-rs = { version = "1.0.0" }
+
+[build-dependencies]
+swift-rs = { version = "1.0.0", features = ["build"] }
