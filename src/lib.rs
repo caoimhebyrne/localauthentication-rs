@@ -120,6 +120,7 @@ impl LocalAuthentication {
 }
 
 /// The set of available local authentication policies.
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 pub enum LAPolicy {
     /// 1. User authentication with biometry.
     DeviceOwnerAuthenticationWithBiometrics,

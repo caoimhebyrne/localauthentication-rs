@@ -1,8 +1,9 @@
 [package]
 name = "localauthentication-rs"
 description = "A wrapper for LocalAuthentication.framework in Rust"
-license = "MIT"
-
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/cbyrneee/localauthentication-rs"
+keywords = ["ffi", "macos", "framework", "swift"]
 version = "0.1.0"
 edition = "2021"
 
